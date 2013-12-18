@@ -1,0 +1,17 @@
+name              "basebox"
+maintainer        "Terry Schmidt"
+maintainer_email  "terry.m.schmidt@gmail.com"
+license           "Apache License 2.0"
+description       "Provides a set of recipes to setup a base app server"
+version           "0.1.0"
+
+supports          "ubuntu"
+supports          "debian"
+
+depends "apt"
+depends "sudo"
+depends "user"
+depends "curl"
+depends "htop"
+depends "git"
+depends "tmux"

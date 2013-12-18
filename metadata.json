@@ -1,0 +1,21 @@
+{
+	"name" : "basebox",
+	"description" : "Provides a set of recipes to setup a base app server",
+	"maintainer" : "Terry Schmidt",
+	"maintainer_email" : "terry.m.schmidt@gmail.com",
+	"license" : "Apache License 2.0",
+	"platforms" : {
+		"ubuntu" : ">= 0.0.0",
+		"debian" : ">= 0.0.0"
+	},
+	"dependencies" : {
+		"apt" 	: ">= 0.0.0",
+		"sudo"	: ">= 0.0.0",
+		"user"	: ">= 0.0.0",
+		"curl"	: ">= 0.0.0",
+		"htop"	: ">= 0.0.0",
+		"git" 	: ">= 0.0.0",
+		"tmux"	: ">= 0.0.0",
+		"build-essential" : ">= 0.0.0"
+	}
+}
